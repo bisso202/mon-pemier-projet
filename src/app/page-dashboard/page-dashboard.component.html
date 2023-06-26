@@ -1,0 +1,36 @@
+<div class="main-container">
+  <div class="row min-height-600  no-flex-wrap">
+<div class="card col col-md-3 mr-2">
+ <div class="col pl-0 pr-0">
+  <div class= "card mt-2 border-none">
+      <h4>Gestion de stock V2.0</h4>
+  </div>
+  <div>
+       <app-menu></app-menu>
+  </div>
+ </div>
+</div>
+<div class="card col col-md-9 pl-0 pr-0 background-grey border-none">
+<div class="col pl-0 pr-0 d-flex flex-column justify-content-between">
+  <div class="card p-3 min-height-80 mb-2">
+    <!-- Contenu du header -->
+    <app-header></app-header>
+  </div>
+  <div class="card mb-2 " style="min-height: 480px">
+    <!-- Contenu du main container -->
+
+    <router-outlet></router-outlet>
+  </div>
+  <div class="card min-height-80">
+    <!-- Contenu du footer -->
+    Footer
+  </div>
+
+</div>
+</div>
+</div>
+  </div>
+
+
+
+

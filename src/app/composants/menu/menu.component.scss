@@ -1,0 +1,21 @@
+/* menu.component.scss */
+
+.accordion-header button {
+  color: #00aaff; /* Utilisez le code de couleur correspondant au bleu ciel */
+  display: flex; /* Ajout de l'affichage en flex */
+  align-items: center; /* Centrer verticalement les éléments */
+}
+
+
+/* Ajuster la taille des sous-titres */
+.subtitle {
+  font-size: 15px;
+}
+
+/* Ajuster la taille des sous-titres dans le corps de l'accordéon */
+.accordion-body .list-group-item {
+  font-size: 15px;
+}
+
+
+
