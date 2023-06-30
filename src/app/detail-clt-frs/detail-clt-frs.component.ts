@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-detail-clt-frs',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./detail-clt-frs.component.scss']
 })
 export class DetailCltFrsComponent {
+  @Input() client: any;
 
+  constructor() { }
 }

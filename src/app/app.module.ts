@@ -21,6 +21,12 @@ import { DetailMvtStkComponent } from './detail-mvt-stk/detail-mvt-stk.component
 import { DetailCltFrsComponent } from './detail-clt-frs/detail-clt-frs.component';
 import { PageClientComponent } from './page-client/page-client.component';
 import { Helper } from './mes-services/helper.service';
+import { PageFournisseurComponent } from './page-fournisseur/page-fournisseur.component';
+import { NouveauCltFrsComponent } from './nouveau-clt-frs/nouveau-clt-frs.component';
+import { DetailCmdCltFrsComponent } from './detail-cmd-clt-frs/detail-cmd-clt-frs.component';
+import { DetailCmdComponent } from './detail-cmd/detail-cmd.component';
+import { PageCmdCltFrsComponent } from './page-cmd-clt-frs/page-cmd-clt-frs.component';
+import { PageCategoriesComponent } from './page-categories/page-categories.component';
 
 
 @NgModule({
@@ -44,6 +50,12 @@ import { Helper } from './mes-services/helper.service';
      DetailMvtStkComponent,
      DetailCltFrsComponent,
      PageClientComponent,
+     PageFournisseurComponent,
+     NouveauCltFrsComponent,
+     DetailCmdCltFrsComponent,
+     DetailCmdComponent,
+     PageCmdCltFrsComponent,
+     PageCategoriesComponent,
 
   ],
   imports: [
